@@ -1,0 +1,10 @@
+dbt_example:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: gen-lang-client-0367565363
+      dataset: dbt
+      threads: 4
+      keyfile: C:\Users\dalla\.dbt\gen-lang-client-0367565363-0ce6cbb4c2cf.json
